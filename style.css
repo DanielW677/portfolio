@@ -43,10 +43,12 @@ body{
 }
 .home{
     margin-top: 150px;
+    color: white;
 }
 .home a {
     text-decoration: none;
-    color: black;
+    color: white;
+    padding-left: 5px;
 }
 .socialInfo{
     text-align: center;
@@ -108,4 +110,54 @@ body{
 .logos{
    margin:50% 0 0 150px ;
    width: 50%;
+}
+.gridCont{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.gridItem{
+    border: 1px solid white;
+}
+.gridItem div p{
+    text-align: center;
+}
+.grid1{
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 550px;
+    margin-bottom: 45px;
+    /* padding: 150px 150px 150px 150px; */
+}
+.grid2{
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 550px;
+    margin-bottom: 45px;
+    /* padding: 150px 150px 150px 150px; */
+}
+.grid2 .photo{
+    align-items: center;
+}
+.grid3{
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 550px;
+    /* padding: 150px 150px 150px 150px; */
+}
+.proTxt{
+    padding-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+.photo{
+    width: 50%;
+    height: 450px;
+}
+.grid3 .photo{
+    width:25% ;
 }
